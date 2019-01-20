@@ -33,6 +33,12 @@
   .title .btn {
     margin-top: 25px;
   }
+  .enter .not-member ul {
+    padding-left: 135px;
+  }
+  .enter .not-member-block {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 767px) {
   .main-video .description .duration {
@@ -48,6 +54,9 @@
   .video-block {
     height: 350px;
   }
+  .enter .not-member ul {
+    padding-left: 40px;
+  }
 }
 @media screen and (max-width: 633px) {
   .logo {
@@ -57,6 +66,17 @@
   }
   .btn {
     padding: 10px 32px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .enter .not-member ul {
+    padding-left: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .enter p {
+    padding: 0 15px;
   }
 }
 @media screen and (max-width: 544px) {
@@ -84,9 +104,18 @@
     justify-content: center;
     margin-top: 15px;
   }
+  .enter .login h2 span, .enter .not-member h2 span {
+    margin-left: 5px;
+  }
+  .enter h2 {
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 370px) {
   .description .property p, .description .property-second p, .description-2 .property p, .description-2 .property-second p {
     font-size: 13px;
+  }
+  .enter .login, .enter .not-member {
+    padding: 45px 15px;
   }
 }

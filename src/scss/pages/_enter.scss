@@ -1,0 +1,84 @@
+.enter {
+	padding: 54px 0 60px 0;
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		color: #ffffff;
+		text-align: center;
+		margin-top: 45px;
+	}
+	.login, .not-member {
+		background: url("../img/title-bg.png");
+		padding: 45px 25px;
+		height: 100%;
+		h2 {
+			span {
+				background: url("../img/unlock.png") no-repeat;
+				background-size: contain;
+				width: 29px;
+				height: 34px;
+				display: inline-block;
+				vertical-align: text-top;
+				margin-left: 20px;
+			}
+		}
+	}
+	.enter_form {
+		margin-top: 40px;
+		input {
+			width: 100%;
+			font-size: 18px;
+			font-weight: 400;
+			padding: 11px 0 11px 15px;
+			margin-bottom: 15px;
+			outline: none;
+			border: none;
+		}
+	}
+	.btn-block, .capcha {
+		margin-top: 40px;
+		text-align: center;
+	}
+	.btn {
+		border: none;
+		outline: none;
+		cursor: pointer;
+		width: 257px;
+	}
+	.not-member {
+		h2 {
+			span {
+				background: url("../img/lock.png") no-repeat;
+				background-size: contain;
+			}
+		}
+		p {
+			text-align: center;
+			font-size: 18px;
+			text-transform: uppercase;
+			font-weight: 700;
+			margin-top: 35px;
+			color: #ffffff;
+		}
+		ul {
+			list-style-type: none;
+			padding-left: 60px;
+			margin-top: 50px;
+			li {
+				background: url("../img/list.png") no-repeat left center;
+				padding-left: 60px;
+				font-size: 18px;
+				font-weight: 400;
+				color: #ffffff;
+				margin-bottom: 20px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				b {
+					font-weight: 700;
+					color: #479ff9;
+				}
+			}
+		}
+	}
+}
