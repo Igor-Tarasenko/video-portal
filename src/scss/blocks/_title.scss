@@ -1,0 +1,40 @@
+.title {
+	background: url("../img/title-bg.png");
+	padding: 20px 0;
+	.red-text {
+		p {
+			font-weight: 400;
+			font-size: 18px;
+			color: #ffffff;
+			text-align: center;
+			&:first-child {
+				font-weight: 700;
+				font-size: 24px;
+				color: #f74c78;
+				margin-bottom: 15px;
+			}
+		}
+	}
+	.blue-text {
+		p {
+			font-weight: 400;
+			font-size: 18px;
+			color: #ffffff;
+			text-align: left;
+			&:first-child {
+				font-weight: 700;
+				font-size: 24px;
+				color: #479ff9;
+				margin-bottom: 15px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.btn-block {
+		text-align: right;
+	}
+	.btn {
+		margin-top: 14px;
+		display: inline-block;
+	}
+}

@@ -1,0 +1,92 @@
+@media screen and (max-width: 1199px) {
+  .description .property p, .description .property-second p, .description-2 .property p, .description-2 .property-second p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .navbar-toggler {
+    background: url("../img/burger.png") no-repeat;
+    background-size: contain;
+    height: 22px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    &:focus {
+      outline: none;
+    }
+  }
+  .navbar {
+    position: relative;
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      z-index: 5555;
+      background: #040404;
+      width: 162px;
+      padding: 0 0 10px 15px;
+    }
+  }
+  .title .blue-text p, .title .btn-block {
+    text-align: center;
+  }
+  .title .btn {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .main-video .description .duration {
+    width: 100%;
+    justify-content: space-between;
+  }
+  header .btn {
+    margin-left: 15px;
+  }
+  header .btns {
+    margin-left: 10px;
+  }
+  .video-block {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 633px) {
+  .logo {
+    img {
+      max-width: 200px;
+    }
+  }
+  .btn {
+    padding: 10px 32px;
+  }
+}
+@media screen and (max-width: 544px) {
+  header {
+    padding: 33px 5px;
+    flex-flow:  row wrap;
+    height: auto;
+  }
+  header .btns a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 479px) {
+  header {
+    padding: 20px 5px;
+    justify-content: center;
+  }
+  header .menu {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 405px) {
+  .top-rated .description .duration {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .description .property p, .description .property-second p, .description-2 .property p, .description-2 .property-second p {
+    font-size: 13px;
+  }
+}

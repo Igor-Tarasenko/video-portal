@@ -1,0 +1,30 @@
+.section-2, .section-3 {
+	padding: 45px 0;
+}
+.top-rated, .most-recent {
+	margin-top: 25px;
+	.description {
+		position: relative;
+		right: 0;
+		left: 0;
+		.duration {
+			.btn-watch {
+				margin-left: 0;
+			}
+		}
+	}
+}
+.most-recent {
+	.video-block {
+		height: 257px;
+	}
+	.description {
+		padding: 13px 5px;
+	}
+	.btn-watch {
+		padding: 11px 20px 11px 32px;
+		span {
+			margin-left: 0;
+		}
+	}
+}

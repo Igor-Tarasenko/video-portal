@@ -1,0 +1,61 @@
+.section-3 {
+	padding: 45px 0;
+	.text {
+		margin-top: 70px;
+		p {
+			font-size: 18px;
+			font-weight: 400;
+			color: #ffffff;
+			text-align: center;
+		}
+	}
+	.btn-block {
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+.most-recent {
+	.video-block {
+		height: 257px;
+	}
+	.description {
+		padding: 13px 5px;
+	}
+	.btn-watch {
+		padding: 11px 20px 11px 32px;
+		span {
+			margin-left: 0;
+		}
+	}
+}
+.pagination-block	{
+	margin-top: 80px;
+	.pagination {
+		justify-content: center;
+	}
+	.page-item {
+		margin-left: 20px;
+		&:first-child {
+			margin-left: 0;
+		}
+	}
+	.page-link {
+		font-size: 24px;
+		font-weight: 400;
+		color: #ffffff;
+		background: transparent;
+		border: none;
+		outline: none;
+		padding: 0;
+		transition: .3s;
+		&:hover {
+			color: #f74c78;
+		}
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	.active {
+		color: #f74c78;
+	}
+}
