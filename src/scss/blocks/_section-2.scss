@@ -3,6 +3,8 @@
 }
 .top-rated, .most-recent {
 	margin-top: 25px;
+	cursor: pointer;
+	transition: .3s;
 	.description {
 		position: relative;
 		right: 0;
@@ -13,20 +15,30 @@
 			}
 		}
 	}
+	&:hover {
+		.description-2 {
+			visibility: hidden;
+		}
+		.btn-watch {
+			background: url("../img/btn-hover.png");
+			background-size: cover;
+			color: #ffffff;
+		}
+	}
 }
 .top-rated {
-	.video-block {
+	.video-block, .img-block {
+		position: relative;
+		height: 304px;
 		video {
-			margin-bottom: 19px;
+			width: 100%;
+			height: 100%;
 		}
 	}
 }
 .most-recent {
-	.video-block {
+	.img-block {
 		height: 257px;
-		video {
-			margin-bottom: 19px;
-		}
 	}
 	.description {
 		padding: 13px 5px;

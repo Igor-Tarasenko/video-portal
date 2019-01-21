@@ -15,8 +15,13 @@
 	}
 }
 .most-recent {
-	.video-block {
-		height: 257px;
+	.video-block, .img-block {
+		position: relative;
+		height: 197px;
+		video {
+			width: 100%;
+			height: 100%;
+		}
 	}
 	.description {
 		padding: 13px 5px;
