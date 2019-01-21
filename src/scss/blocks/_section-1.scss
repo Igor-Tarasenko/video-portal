@@ -34,7 +34,7 @@
 		align-items: center;
 	}
 	.property, .property-second {
-		p {
+		p, a {
 			color: #ffffff;
 			font-size: 18px;
 			text-transform: uppercase;
@@ -44,14 +44,16 @@
 				color: #479ff9;
 			}
 		}
+		a {
+			margin-left: 7px;
+			color: #479ff9;
+		}
 	}
 	.property-second {
-		p {
-			&:last-child {
-				color: #0c7df0;
-				text-transform: none;
-				text-decoration: underline;
-			}
+		a {
+			color: #0c7df0;
+			text-transform: none;
+			text-decoration: underline;
 		}
 	}
 	.duration {

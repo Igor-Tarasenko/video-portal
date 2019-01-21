@@ -1,5 +1,7 @@
 @media screen and (max-width: 1199px) {
-  .description .property p, .description .property-second p, .description-2 .property p, .description-2 .property-second p {
+  .description .property p, .description .property-second p,
+  .description-2 .property p, .description-2 .property-second p,
+  .description .property-second a, .description-2 .property-second a {
     font-size: 15px;
   }
   .payment .offers .form-group {
@@ -141,8 +143,9 @@
   }
 }
 @media screen and (max-width: 370px) {
-  .description .property p, .description .property-second p, .description-2 .property p, .description-2 .property-second p {
-    font-size: 13px;
+  .description .property p, .description .property-second p, .description-2 .property p,
+  .description-2 .property-second p, .description .property-second a, .description-2 .property-second a {
+    font-size: 12px;
   }
   .enter .login, .enter .not-member {
     padding: 45px 15px;
