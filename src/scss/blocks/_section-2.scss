@@ -14,9 +14,19 @@
 		}
 	}
 }
+.top-rated {
+	.video-block {
+		video {
+			margin-bottom: 19px;
+		}
+	}
+}
 .most-recent {
 	.video-block {
 		height: 257px;
+		video {
+			margin-bottom: 19px;
+		}
 	}
 	.description {
 		padding: 13px 5px;
