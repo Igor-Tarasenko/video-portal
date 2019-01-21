@@ -2,6 +2,18 @@
   .description .property p, .description .property-second p, .description-2 .property p, .description-2 .property-second p {
     font-size: 15px;
   }
+  .payment .offers .form-group {
+    margin-right: 15px;
+  }
+  .payment .offers .duration-offer p:first-child {
+    font-size: 15px;
+  }
+  .payment .offers .duration-offer p {
+    font-size: 12px;
+  }
+  .payment .offers .price p {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 991px) {
   .navbar-toggler {
@@ -37,6 +49,9 @@
     padding-left: 135px;
   }
   .enter .not-member-block {
+    margin-top: 30px;
+  }
+  .membership-block {
     margin-top: 30px;
   }
 }
@@ -98,6 +113,20 @@
     margin-top: 30px;
   }
 }
+@media screen and (max-width: 461px) {
+  .payment .offers .price {
+    width: 100%;
+    margin-top: 10px;
+    p {
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+  .payment .offers .group {
+    justify-content: center;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 405px) {
   .top-rated .description .duration {
     width: 100%;
@@ -117,5 +146,14 @@
   }
   .enter .login, .enter .not-member {
     padding: 45px 15px;
+  }
+  .payment .offers .duration-offer p:first-child {
+    font-size: 13px;
+  }
+  .payment .offers .offer {
+    padding: 15px 9px;
+  }
+  .payment .offers .duration-offer p {
+    font-size: 11px;
   }
 }
