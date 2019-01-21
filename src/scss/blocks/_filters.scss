@@ -1,0 +1,71 @@
+.filters {
+	background: #000000;
+	border-top: 4px solid #272727;
+	padding: 50px 0;
+	h2 {
+		color: #ffffff;
+	}
+	.search {
+		form {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+		}
+		input {
+			background: #ffffff;
+			color: #000000;
+			border: none;
+			outline: none;
+			font-size: 14px;
+			font-weight: 700;
+			height: 47px;
+			width: calc(100% - 15px);
+			padding: 0 0 0 20px;
+		}
+		.search-btn {
+			background: url("../img/search.png") no-repeat center;
+			height: 47px;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 0 25px;
+		}
+	}
+	.jq-selectbox {
+		width: 100%;
+		height: 47px;
+		li {
+			min-height: 18px;
+			padding: 5px 10px 6px;
+			color: #333333;
+			font-size: 14px;
+			font-weight: 700;
+			transition: .3s;
+			&:hover {
+				color: #0c7df0;
+			}
+		}
+	}
+	.jq-selectbox li.selected {
+		color: #0c7df0;
+		text-decoration: underline;
+	}
+	.first-filter {
+		.jq-selectbox__select {
+			background: url("../img/filter-1.png") no-repeat 10px 50%;
+		}
+	}
+	.second-filter {
+		.jq-selectbox__select {
+			background: url("../img/date.png") no-repeat 10px 50%;
+		}
+	}
+	.third-filter {
+		.jq-selectbox__select {
+			background: url("../img/girls.png") no-repeat 10px 50%;
+		}
+	}
+	.filter-block {
+		margin-top: 50px;
+	}
+}

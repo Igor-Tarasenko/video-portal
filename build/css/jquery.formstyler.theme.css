@@ -186,36 +186,27 @@
 	cursor: pointer;
 }
 .jq-selectbox__select {
-	height: 32px;
-	padding: 0 45px 0 10px;
-	border: 1px solid #CCC;
-	border-bottom-color: #B3B3B3;
-	border-radius: 4px;
-	background: linear-gradient(#FFF, #E6E6E6);
-	box-shadow: inset 1px -1px #F1F1F1, inset -1px 0 #F1F1F1, 0 1px 2px rgba(0,0,0,.1);
-	font: 14px/32px Arial, sans-serif;
-	color: #333;
-	text-shadow: 1px 1px #FFF;
-}
-.jq-selectbox__select:hover {
-	background: linear-gradient(#F6F6F6, #E6E6E6);
+	height: 100%;
+	padding: 11px 34px 0 34px;
+	border: 1px solid #404040;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 700;
 }
 .jq-selectbox__select:active {
-	background: #F5F5F5;
-	box-shadow: inset 1px 1px 3px #DDD;
+	border: 1px solid #404040;
 }
 .jq-selectbox.focused .jq-selectbox__select {
-	border: 1px solid #5794BF;
+	border: 1px solid #404040;
 }
 .jq-selectbox.disabled .jq-selectbox__select {
-	border-color: #CCC;
-	background: #F5F5F5;
 	box-shadow: none;
-	color: #888;
+	color: #ffffff;
 }
 .jq-selectbox__select-text {
 	display: block;
 	width: 100%;
+	text-align: center;
 }
 .jq-selectbox .placeholder {
 	color: #888;
@@ -226,18 +217,9 @@
 	right: 0;
 	width: 34px;
 	height: 100%;
-	border-left: 1px solid #CCC;
+	background: url("../img/arrow.png") no-repeat center;
 }
-.jq-selectbox__trigger-arrow {
-	position: absolute;
-	top: 14px;
-	right: 12px;
-	width: 0;
-	height: 0;
-	border-top: 5px solid #999;
-	border-right: 5px solid transparent;
-	border-left: 5px solid transparent;
-}
+
 .jq-selectbox:hover .jq-selectbox__trigger-arrow {
 	border-top-color: #000;
 }
@@ -283,15 +265,22 @@
 .jq-selectbox li {
 	min-height: 18px;
 	padding: 5px 10px 6px;
-	color: #231F20;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 700;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
 }
 .jq-selectbox li.selected {
-	background-color: #A3ABB1;
-	color: #FFF;
+	color: #0c7df0;
+	text-decoration: underline;
 }
 .jq-selectbox li:hover {
-	background-color: #08C;
-	color: #FFF;
+	color: #0c7df0;
+	text-decoration: underline;
 }
 .jq-selectbox li.disabled {
 	color: #AAA;
