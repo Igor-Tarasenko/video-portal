@@ -1,4 +1,4 @@
-.title {
+.title, .download {
 	background: url("../img/title-bg.png");
 	padding: 20px 0;
 	.red-text {
@@ -36,5 +36,58 @@
 	.btn {
 		margin-top: 14px;
 		display: inline-block;
+	}
+}
+.download {
+	background: transparent;
+	.blue-text {
+		p {
+			padding-left: 20px;
+		}
+	}
+	.download-block {
+		background: url("../img/title-bg.png");
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 29px 20px;
+	}
+	.text {
+		p {
+			font-size: 14px;
+			font-weight: 400;
+			color: #ffffff;
+			&:first-child {
+				font-size: 18px;
+				font-weight: 700;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.icon-download {
+		background: url("../img/download-icon.png") no-repeat;
+		width: 36px;
+		height: 35px;
+		background-size: contain;
+		outline: none;
+		border: none;
+		cursor: pointer;
+		transition: .3s;
+		&:hover {
+			background: url("../img/download-icon-hover.png") no-repeat;
+		}
+	}
+	.btn-block {
+		text-align: center;
+		p {
+			font-size: 18px;
+			font-weight: 400;
+			color: #ffffff;
+			text-align: center;
+			margin-bottom: 7px;
+		}
+		.btn {
+			width: 340px;
+		}
 	}
 }

@@ -16,6 +16,9 @@
   .payment .offers .price p {
     font-size: 14px;
   }
+  .download .btn-block .btn {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 991px) {
   .navbar-toggler {
@@ -56,6 +59,12 @@
   .membership-block {
     margin-top: 30px;
   }
+  .download .btn-block {
+    margin-top: 30px;
+    .btn {
+      width: 340px;
+    }
+  }
 }
 @media screen and (max-width: 767px) {
   .main-video .description .duration {
@@ -73,6 +82,15 @@
   }
   .enter .not-member ul {
     padding-left: 40px;
+  }
+  .download .download-block {
+    padding: 10px 5px;
+  }
+  .download .text p {
+    font-size: 12px;
+    &:first-child {
+      font-size: 16px;
+    }
   }
 }
 @media screen and (max-width: 633px) {
@@ -94,6 +112,21 @@
   }
   .enter p {
     padding: 0 15px;
+  }
+  .download .text p:first-child {
+    font-size: 18px;
+  }
+  .download .text p {
+    font-size: 14px;
+  }
+  .download .download-main-block {
+    margin-top: 20px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .download .download-block {
+    padding: 10px 20px;
   }
 }
 @media screen and (max-width: 544px) {
@@ -141,6 +174,9 @@
   .enter h2 {
     font-size: 24px;
   }
+  .download .btn-block .btn {
+    width: 320px;
+  }
 }
 @media screen and (max-width: 370px) {
   .description .property p, .description .property-second p, .description-2 .property p,
@@ -158,5 +194,8 @@
   }
   .payment .offers .duration-offer p {
     font-size: 11px;
+  }
+  .download .btn-block .btn {
+    width: 100%;
   }
 }
