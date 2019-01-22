@@ -38,13 +38,8 @@
 	.pagination {
 		justify-content: center;
 	}
-	.page-item {
+	.page-numbers {
 		margin-left: 20px;
-		&:first-child {
-			margin-left: 0;
-		}
-	}
-	.page-link {
 		font-size: 24px;
 		font-weight: 400;
 		color: #ffffff;
@@ -53,14 +48,15 @@
 		outline: none;
 		padding: 0;
 		transition: .3s;
+		cursor: pointer;
 		&:hover {
 			color: #f74c78;
 		}
-		&:focus {
-			box-shadow: none;
+		&:first-child {
+			margin-left: 0;
 		}
 	}
-	.active {
+	.current {
 		color: #f74c78;
 	}
 }

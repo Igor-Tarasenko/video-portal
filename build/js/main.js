@@ -1,7 +1,13 @@
 $(document).ready(function () {
     $('input:checkbox, select').styler();
-    $('.page-link').click(function () {
-       $('.pagination').find('.page-link').removeClass('active');
-       $(this).addClass('active');
+    /*$('.page-numbers').click(function () {
+       $('.page-numbers').removeClass('current');
+       $(this).addClass('current');
+    });*/
+    /*$(".video-block").on("mouseover", "video", function(){
+        this.play();
     });
+    $(".video-block").on("mouseleave", "video", function(){
+        this.pause();
+    })*/
 });
