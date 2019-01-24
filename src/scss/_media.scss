@@ -29,6 +29,19 @@
     position: relative;
     height: 164px;
   }
+  header .header-menu ul li {
+    margin-right: 25px;
+    font-size: 14px;
+  }
+  header .btn, header .btns {
+    margin-left: 25px;
+  }
+  header .btns a {
+    font-size: 14px;
+  }
+  header .btn, header .btns {
+    margin-left: 15px;
+  }
 }
 @media screen and (max-width: 991px) {
   .navbar-toggler {
